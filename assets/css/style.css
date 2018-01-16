@@ -241,7 +241,10 @@ footer{
 
 @media only screen and (max-width: 768px) {
 
-
+	
+	.portfolioItem:nth-child(even){
+		margin-right:20px;
+	}
 
 }
 
@@ -272,7 +275,13 @@ footer{
 		padding-right: 0;
 	}
 
+	.portfolioItem{
+		width:100%;
+	}
 
+	.portfolioItem:nth-child(even){
+		margin-right:0px;
+	}
 
 }
 
